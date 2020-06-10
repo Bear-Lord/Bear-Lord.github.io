@@ -1,0 +1,269 @@
+section{
+	text-align: center;
+	margin-bottom: 120px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h3{
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+h4{
+	font-size: 30px;
+}
+
+
+h5{
+	font-size:1.15em;
+	margin: 0;
+}
+
+.menu{
+	padding: 20px 40px;
+	width:50%;
+	margin:auto;
+}
+
+#menu1{
+	background-color:#FCDFDB;
+ 	color:#3C1218;
+}
+
+#menu1, #menu3, #menu4{
+	font-family: "segoe";
+}
+
+#menu1 h3, #menu1 h4{
+	font-family:"devonshire";
+}
+
+#menu1 h4 .note-img{
+	height: 35px;
+	margin-right: 10px;
+}
+
+#menu1 .note-img{
+	margin-top: 40px;
+	height: 80px;
+}
+
+#menu2
+{
+	background-color:#FFF5FE;
+ 	color:#E3B589;
+ 	font-family: "charrisil";
+}
+
+#menu2 h3{
+	font-family: "croissant";
+	background: -webkit-linear-gradient(10deg, #E5AA70, #AA7FF7);
+    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size:1.65em;
+}
+
+#menu2 .purple{
+	color: #A56799;
+}
+
+#menu2 .indigo{
+	color: #6E4CCC;
+}
+
+#menu2 h3, #menu3 h3, #menu4 h3{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+#menu2, #menu3, #menu4{
+	padding-bottom: 110px;
+}
+
+#menu2 .menu-left-part, #menu3 .menu-left-part, #menu4 .menu-left-part{
+	padding-left: 80px;
+}
+
+#menu2 .menu-right-part, #menu3 .menu-right-part, #menu4 .menu-right-part{
+	padding-right: 80px;
+}
+
+#menu2 h5, #menu3 h5, #menu4 h5{
+	margin-bottom:30px;
+}
+
+#menu2 h5{
+	margin-top:14px;
+	font-size:20px;
+}
+
+#menu3
+{
+	background-color:#EDEFEF;
+ 	color:#000000;
+}
+
+#menu3 h3 {
+	font-family:"dancing-script";
+	background: -webkit-linear-gradient(10deg, #0431DF, #97C9F9);
+    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3em;
+}
+#menu3 h5 {
+
+background: -webkit-linear-gradient(10deg, #000000, #858787);
+    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+	font-size: 22px;
+}
+
+
+
+#menu4 h3{
+	font-family:"kaushan";
+	background: -webkit-linear-gradient(280deg, #3D923A, #BEFF7F);
+    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 3.5em;
+}
+
+.menu-title{
+	margin-top: 50px;
+}
+
+.menu-title-part{
+	width:33%;
+}
+
+.menu-title-part-side{
+	width:30%;
+}
+
+.menu-title-part-center{
+	width:40%;
+}
+
+.menu-title-part img, .menu-title-part-side img{
+	width: 100%;
+}
+
+.menu-title-trace-right{
+	margin-top: 7px;
+}
+
+.menu-part{
+	margin: 15px 0;
+	font-size: 18px;
+}
+
+.menu-left-part{
+	text-align: left;
+	width:90%;
+}
+
+.menu-right-part{
+	text-align: right;
+	width: 10%;
+	font-weight: bold;
+}
+
+h5 .underline.brown{
+	background: linear-gradient(to top, #3c1218 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.orange{
+	background: linear-gradient(to top, #E3B589 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.black{
+	background: linear-gradient(to top, black 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.purple{
+	background: linear-gradient(to top, #A56799 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline.indigo{
+	background: linear-gradient(to top, #6E4CCC 5%, transparent 2%) no-repeat left bottom/0 50%;
+}
+
+h5 .underline{
+  	transition: background-size 700ms ease;
+}
+h5 .underline:hover {
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:1300px)
+{
+	.menu{
+		width:75%;
+	}
+
+	#menu3 h5{
+		font-size:18px;
+		margin-top: 3px;
+	}
+
+	#menu4 h5{
+		font-size:20px;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width:720px)
+{
+	.menu{
+		width:90%;
+		margin:0 auto;
+		padding:20px 15px;
+	}
+
+	.menu-part{
+		font-size: 16px;
+	}
+
+	#menu1 h5{
+		font-size:20px;
+	}
+
+	#menu1 .menu-title-part-side img{
+		margin-top:2px;
+	}
+
+	#menu2 .menu-left-part, #menu3 .menu-left-part, #menu4 .menu-left-part{
+		padding-left: 60px;
+	}
+
+	#menu2 .menu-right-part, #menu3 .menu-right-part, #menu4 .menu-right-part{
+		padding-right: 60px;
+	}
+
+	#menu2 h5{
+		font-size:16px;
+		margin-top:6px;
+	}
+
+	#menu3 h5{
+		font-size:15px;
+		margin-top:6px;
+	}
+
+	#menu3 .menu-title-part-side img{
+		margin-top:2px;
+	}
+
+	#menu4 h5{
+		font-size:18px;
+		margin-top:8px;
+	}
+}
