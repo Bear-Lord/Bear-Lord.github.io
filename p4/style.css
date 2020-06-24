@@ -646,7 +646,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -820,7 +820,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-    background-size: 100% !important;
+    background-size: 150% !important;
 }
 
 .bg-presentation {
