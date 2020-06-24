@@ -779,7 +779,8 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #FF5100;
+    background-color: #F3976C;
+    color: black!important;
 }
 
 .tc-white {
@@ -787,13 +788,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #FF5100;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -819,6 +820,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-size: 100% !important;
 }
 
 .bg-presentation {
