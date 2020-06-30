@@ -1054,6 +1054,14 @@ h4 {
     .bg-banniere {
         height:100%;
     }
+
+    .padding-mobile{
+        padding: 5px;
+    }
+
+    .btn-mobile{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 400px) {
