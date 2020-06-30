@@ -537,7 +537,6 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -545,6 +544,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
+    left: calc(50% - 25px);
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
@@ -820,11 +820,19 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-    background-size: 150% !important;
+    background-size: cover !important;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.img-responsive{
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -962,6 +970,11 @@ h4 {
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+        width:100%;
+    }
+    .navbar-brand{
+        width: 80%;
+        float: left;
     }
     .navbar-brand img {
         max-height: 40px;
@@ -974,6 +987,13 @@ h4 {
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
+        width: 20%;
+        display: inline-block;
+        float: right;
+        margin-right: 0%;
+    }
+    .navbar .navbar-header{
+        width: 100%;
     }
     .bloc {
         padding-left: 0;
@@ -1027,6 +1047,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+}
+
+@media (max-width: 490px) {
+    .bg-banniere {
+        height:100%;
     }
 }
 
