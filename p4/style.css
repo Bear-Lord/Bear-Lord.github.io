@@ -118,7 +118,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -129,6 +128,9 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+.d-bloc a .icon-md{
+    color: rgb(0, 0, 0, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -190,7 +192,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -734,6 +736,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: #000000!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -786,6 +792,11 @@ h4 {
 .tc-white {
     color: #FFFFFF!important;
 }
+
+.tc-black {
+    color: #000000!important;
+}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -1048,6 +1059,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .icon-md {
+        font-size: 50px !important;
+    }
 }
 
 @media (max-width: 490px) {
@@ -1056,6 +1070,10 @@ h4 {
     }
 
     .padding-mobile{
+        padding: 5px;
+    }
+
+    .padding-mobile-15{
         padding: 5px;
     }
 
