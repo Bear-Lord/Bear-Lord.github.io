@@ -1,0 +1,277 @@
+body{
+	width: 100%;
+	margin:0;
+	text-align: center;
+}
+
+header{
+	background-color:#F3E9F1;
+	text-align: left;
+}
+
+.logo{
+	height:75px;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+nav{
+	display: inline-block;
+	width:50%;
+	float:right;
+	text-align:right;
+}
+
+nav li{
+	display: inline-block;
+	padding: 20px 25px 10px;
+	font-size: 20px;
+}
+
+h1{
+	margin: 30px auto;
+}
+
+#bloc_panier{
+	display: flex;
+	margin:auto;
+	width: 1200px;
+}
+
+.panier-liste, .panier-form{
+	padding:20px;
+}
+
+.panier-liste {
+	width:600px;
+	margin-right:200px;
+}
+
+.panier-form{
+	width: 600px;
+}
+
+#bloc_panier h2{
+	margin-bottom: 25px;
+}
+
+.panier-form input[type=text], .panier-form input[type=email]{
+	width: 450px;
+}
+
+.panier-form-part{
+	width:100%;
+	display: flex;
+	margin-bottom : 25px;
+	text-align: center;
+}
+
+.panier-form-left-part{
+	width:15%;
+	text-align: right;
+	padding-right: 25px;
+}
+
+.panier-form-right-part{
+	width:80%;
+	text-align: left;
+}
+
+.panier-form-part-submit{
+	width:100%;
+	text-align: center;
+}
+
+.panier-element{
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+}
+
+.panier-element-left-part{
+	width: 90%;
+}
+
+.panier-element-right-part{
+	width: 10%;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.fond-beige{
+	background-color: #F3E9F1;
+}
+
+.margin-auto{
+	margin:auto;
+}
+
+.produit{
+	display:flex;
+	width:75%;
+	padding:15px;
+	border: 1px solid black;
+	background-color: #F3E9F1;	
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.button{
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #8F5BFE;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #855D88;
+}
+
+.button:hover{
+	background-color: #AF8AFF;
+}
+
+.button:active{
+	box-shadow : 0px 0px 35px rgba(0,0,0,0.3) inset;
+}
+
+.produit-nom{
+	font-size: 30px;
+}
+
+.produit-left-part{
+	width: 300px;
+}
+
+.produit-image{
+	max-width:280px;
+}
+
+.produit-right-part{
+	padding-left:15px;
+	width: 75%;
+}
+
+.wiggle{
+	animation: none;
+	display: inline-block;
+}
+.wiggle:hover {
+	animation: wiggle 1500ms ease-in-out infinite;
+  
+}
+
+@keyframes wiggle {
+  	0% {
+    	transform: rotate(7deg);
+    }
+  	10% {
+   		transform: rotate(-2.5deg);
+   	}
+ 	20% {
+    	transform: rotate(2deg);
+    }
+  	30% {
+   	 	transform: rotate(-2.5deg);
+   	}
+ 	40% {
+   	 	transform: rotate(1deg);
+   	}
+  	50% {
+   	 	transform: rotate(-1.5deg);
+   	}
+   	60% {
+    	transform: rotate(0deg);
+	}
+	90% {
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(7deg);
+	}
+}
+
+@media screen and (max-width:1300px){
+	#bloc_panier{
+		display:block;
+		width: 100%;
+	}
+
+	.panier-liste, .panier-form{
+		width:100%;
+	}
+
+	.panier-form h2{
+		font-size: 18px;
+	}
+
+	.panier-form input[type=text], .panier-form input[type=email]{
+		width: 200px;
+	}
+
+	.panier-form-part{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.panier-form-left-part{
+		width:30%;
+	}
+
+	.panier-form-right-part{
+		width:70%;
+	}
+}
+
+@media screen and (max-width:720px){
+	.logo{
+		margin-left:20px;
+		height: 55px;
+
+	}
+
+	nav{
+		width:auto;
+		float: none;
+		display: inline-block;
+		width: calc(100% - 160px);
+	}
+
+	nav li{
+		padding-right: 20px;
+		padding-left: 0px;
+	}
+
+	.produit{
+		display: block;
+	}
+
+	.produit-image{
+		width:100%;
+		max-height: none;
+	}
+
+	.produit-left-part{
+		width:100%;
+		text-align: center;
+	}
+
+	#main_produit{
+		padding: 15px;
+	}
+
+	.produit-right-part{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:400px){
+	nav li{
+		font-size : 16px;
+	}
+}
