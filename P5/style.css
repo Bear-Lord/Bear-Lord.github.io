@@ -97,6 +97,9 @@ h1{
 	width: 10%;
 	font-weight: bold;
 	font-size: 14px;
+}
+
+.cursor{
 	cursor: pointer;
 }
 
@@ -163,6 +166,19 @@ h1{
 .wiggle:hover {
 	animation: wiggle 1500ms ease-in-out infinite;
   
+}
+
+.hidden{
+	display: none;
+}
+
+#error_message{
+	border-radius: 10px;
+	background-color: #FFAEAE;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
 @keyframes wiggle {
